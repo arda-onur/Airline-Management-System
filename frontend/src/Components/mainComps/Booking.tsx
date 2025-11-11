@@ -26,10 +26,14 @@ export default function Booking() {
         passenger: "Passenger",
         bookingStatus: "Booking Status",
     };
+
+    const update = {
+        underMaintenance: "UnderMaintenance",
+    }
     return(
         <>
             <h2 id="HeaderName">Booking Management</h2>
-            <ModSelection add={add} list={list} api={api}/>
+            <ModSelection add={add} list={list} update={update} api={api}/>
         </>
     );
 }
