@@ -1,0 +1,17 @@
+#HeaderName{
+ text-align: center;
+}
+
+#modSelection{
+ display: flex;
+ justify-content: center;
+
+ text-align: center;
+}
+
+#modSelectionDiv{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+
+}

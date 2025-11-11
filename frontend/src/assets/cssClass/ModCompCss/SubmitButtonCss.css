@@ -1,0 +1,8 @@
+#submitButton {
+    display: flex;
+    position: relative;
+    height: 55%;
+    top: 18px;
+    justify-content: center;
+    cursor: pointer;
+}
