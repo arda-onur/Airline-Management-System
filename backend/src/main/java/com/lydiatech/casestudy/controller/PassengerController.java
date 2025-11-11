@@ -30,15 +30,10 @@ public class PassengerController {
     }
 
     @GetMapping("/getAllPassenger")
-    public ResponseEntity<Page<Passenger>> registerPassenger(@RequestParam int page, @RequestParam int size){
+    public ResponseEntity<Page<Passenger>> getAllPassenger(@RequestParam int page, @RequestParam int size){
         Pageable pageable = PageRequest.of(page, size);
         return ResponseEntity.status(HttpStatus.OK)
                 .body(this.passengerService.getAllPassenger(pageable));
     }
-    @GetMapping("/getRelatedFlights")
-    public ResponseEntity<Page<Passenger>> registerPassenger(@RequestParam int page, @RequestParam int size, @RequestParam String email){
-        Pageable pageable = PageRequest.of(page, size);
-        return ResponseEntity.status(HttpStatus.OK)
-                .body(this.passengerService.getAllPassenger(pageable));
-    }
+
 }
