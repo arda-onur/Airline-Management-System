@@ -15,6 +15,5 @@ logging:
   pattern:
     file: "%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"
   level:
-    root: OFF
     c.l.c.logging.PassengerAspectLogging: INFO
     com.lydiatech.casestudy.logging.PassengerAspectLogging: INFO
