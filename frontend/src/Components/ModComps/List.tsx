@@ -153,7 +153,7 @@ export default function List(props) {
                     </div>
                 </div>
 
-                {variables[0] === "id" ? (
+                {variables[8] === "bookingStatus" ? (
                     <div id="search">
                         <input
                             name="bookingId"
