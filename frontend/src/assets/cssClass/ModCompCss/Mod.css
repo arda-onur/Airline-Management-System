@@ -1,0 +1,66 @@
+.add{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 16px;
+}
+
+
+.addSubComp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AddOuterDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outerTable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 3rem;   /
+    height: auto;
+}
+
+
+#table{
+    width: 80%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+
+}
+
+
+#table th,
+#table td{
+    text-align: center;
+    vertical-align: middle;
+    padding: 4px 6px;
+    line-height: 1.2;
+
+}
+
+
+#table tbody tr{
+    height: 32px;   /
+}
+
+
+#table thead th{
+    text-decoration: underline;
+}
+
+#search{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 16px;
+}
